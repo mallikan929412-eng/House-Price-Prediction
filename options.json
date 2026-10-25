@@ -1,0 +1,114 @@
+{
+  "localities": [
+    "Banashankari",
+    "Bannerghatta Road",
+    "Basavanagudi",
+    "Bellandur",
+    "Devanahalli",
+    "Electronic City",
+    "HSR Layout",
+    "Hebbal",
+    "Hennur",
+    "Hosur Road",
+    "Indiranagar",
+    "JP Nagar",
+    "Jayanagar",
+    "KR Puram",
+    "Kanakapura Road",
+    "Kengeri",
+    "Koramangala",
+    "Malleshwaram",
+    "Marathahalli",
+    "RT Nagar",
+    "Rajajinagar",
+    "Sarjapur Road",
+    "Vijayanagar",
+    "Whitefield",
+    "Yelahanka"
+  ],
+  "zones": [
+    "East",
+    "North",
+    "South",
+    "West"
+  ],
+  "property_types": [
+    "Apartment",
+    "Independent House",
+    "Villa"
+  ],
+  "furnishing": [
+    "Unfurnished",
+    "Semi-Furnished",
+    "Furnished"
+  ],
+  "facings": [
+    "East",
+    "North",
+    "West",
+    "South",
+    "North-East"
+  ],
+  "ranges": {
+    "bhk": {
+      "min": 1,
+      "max": 5,
+      "default": 2
+    },
+    "area_sqft": {
+      "min": 450,
+      "max": 2350,
+      "default": 1200
+    },
+    "bathrooms": {
+      "min": 1,
+      "max": 6,
+      "default": 2
+    },
+    "balconies": {
+      "min": 0,
+      "max": 3,
+      "default": 1
+    },
+    "floor": {
+      "min": 0,
+      "max": 29,
+      "default": 4
+    },
+    "total_floors": {
+      "min": 1,
+      "max": 30,
+      "default": 15
+    },
+    "age_years": {
+      "min": 0,
+      "max": 35,
+      "default": 5
+    },
+    "parking_slots": {
+      "min": 0,
+      "max": 4,
+      "default": 1
+    },
+    "amenities_score": {
+      "min": 0.0,
+      "max": 10.0,
+      "default": 7.0
+    },
+    "metro_distance_km": {
+      "min": 0.0,
+      "max": 20.0,
+      "default": 2.5
+    },
+    "school_distance_km": {
+      "min": 0.0,
+      "max": 6.3,
+      "default": 1.2
+    },
+    "tech_park_distance_km": {
+      "min": 0.0,
+      "max": 28.6,
+      "default": 4.5
+    }
+  }
+}

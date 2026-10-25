@@ -1,0 +1,102 @@
+[
+  {
+    "feature": "locality",
+    "importance_mean": 1.0033,
+    "importance_std": 0.01169
+  },
+  {
+    "feature": "area_sqft",
+    "importance_mean": 0.71735,
+    "importance_std": 0.01617
+  },
+  {
+    "feature": "property_type",
+    "importance_mean": 0.02878,
+    "importance_std": 0.00056
+  },
+  {
+    "feature": "age_years",
+    "importance_mean": 0.02083,
+    "importance_std": 0.00148
+  },
+  {
+    "feature": "tech_park_distance_km",
+    "importance_mean": 0.01246,
+    "importance_std": 0.00098
+  },
+  {
+    "feature": "furnishing",
+    "importance_mean": 0.01034,
+    "importance_std": 0.00066
+  },
+  {
+    "feature": "metro_distance_km",
+    "importance_mean": 0.00788,
+    "importance_std": 0.00036
+  },
+  {
+    "feature": "floor",
+    "importance_mean": 0.00779,
+    "importance_std": 0.00055
+  },
+  {
+    "feature": "amenities_score",
+    "importance_mean": 0.00541,
+    "importance_std": 0.00064
+  },
+  {
+    "feature": "gated_community",
+    "importance_mean": 0.00355,
+    "importance_std": 0.0004
+  },
+  {
+    "feature": "zone",
+    "importance_mean": 0.00319,
+    "importance_std": 0.00048
+  },
+  {
+    "feature": "bhk",
+    "importance_mean": 0.0017,
+    "importance_std": 0.00022
+  },
+  {
+    "feature": "parking_slots",
+    "importance_mean": 0.00101,
+    "importance_std": 0.0002
+  },
+  {
+    "feature": "facing",
+    "importance_mean": 0.00071,
+    "importance_std": 0.00017
+  },
+  {
+    "feature": "rera_approved",
+    "importance_mean": 0.00058,
+    "importance_std": 0.00018
+  },
+  {
+    "feature": "school_distance_km",
+    "importance_mean": 0.00052,
+    "importance_std": 0.00028
+  },
+  {
+    "feature": "lift_available",
+    "importance_mean": 0.00028,
+    "importance_std": 5e-05
+  },
+  {
+    "feature": "total_floors",
+    "importance_mean": 0.00018,
+    "importance_std": 0.0001
+  },
+  {
+    "feature": "bathrooms",
+    "importance_mean": -2e-05,
+    "importance_std": 8e-05
+  },
+  {
+    "feature": "balconies",
+    "importance_mean": -5e-05,
+    "importance_std": 5e-05
+  }
+]

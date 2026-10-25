@@ -1,0 +1,2143 @@
+{
+  "best_model": "HistGradientBoostingRegressor",
+  "is_synthetic_data": true,
+  "total_records_initial": 15000,
+  "outliers_removed": 47,
+  "training_records": 11962,
+  "test_records": 2991,
+  "best_mae_lakhs": 8.0,
+  "best_rmse_lakhs": 11.15,
+  "best_r2": 0.9628,
+  "cross_val_mae": 8.05,
+  "models": {
+    "LinearRegression": {
+      "test_mae_lakhs": 8.51,
+      "test_rmse_lakhs": 12.07,
+      "test_r2": 0.9565,
+      "cv_r2_mean": 0.954,
+      "cv_r2_std": 0.0024,
+      "cv_mae_mean": 8.63,
+      "cv_mae_std": 0.14
+    },
+    "RandomForestRegressor": {
+      "test_mae_lakhs": 12.16,
+      "test_rmse_lakhs": 16.94,
+      "test_r2": 0.9142,
+      "cv_r2_mean": 0.9185,
+      "cv_r2_std": 0.0029,
+      "cv_mae_mean": 11.97,
+      "cv_mae_std": 0.25
+    },
+    "HistGradientBoostingRegressor": {
+      "test_mae_lakhs": 8.0,
+      "test_rmse_lakhs": 11.15,
+      "test_r2": 0.9628,
+      "cv_r2_mean": 0.9614,
+      "cv_r2_std": 0.0018,
+      "cv_mae_mean": 8.05,
+      "cv_mae_std": 0.22
+    }
+  },
+  "scatter_sample": [
+    {
+      "actual": 67.16,
+      "predicted": 61.28,
+      "locality": "Marathahalli",
+      "bhk": 1,
+      "area_sqft": 650
+    },
+    {
+      "actual": 159.58,
+      "predicted": 150.13,
+      "locality": "HSR Layout",
+      "bhk": 3,
+      "area_sqft": 1340
+    },
+    {
+      "actual": 86.53,
+      "predicted": 90.82,
+      "locality": "Whitefield",
+      "bhk": 2,
+      "area_sqft": 1050
+    },
+    {
+      "actual": 113.19,
+      "predicted": 102.7,
+      "locality": "Jayanagar",
+      "bhk": 1,
+      "area_sqft": 770
+    },
+    {
+      "actual": 134.47,
+      "predicted": 130.04,
+      "locality": "Yelahanka",
+      "bhk": 5,
+      "area_sqft": 1840
+    },
+    {
+      "actual": 150.18,
+      "predicted": 148.49,
+      "locality": "Vijayanagar",
+      "bhk": 3,
+      "area_sqft": 1430
+    },
+    {
+      "actual": 250.49,
+      "predicted": 261.37,
+      "locality": "Koramangala",
+      "bhk": 4,
+      "area_sqft": 1880
+    },
+    {
+      "actual": 93.74,
+      "predicted": 88.19,
+      "locality": "Rajajinagar",
+      "bhk": 2,
+      "area_sqft": 810
+    },
+    {
+      "actual": 85.31,
+      "predicted": 90.08,
+      "locality": "Electronic City",
+      "bhk": 3,
+      "area_sqft": 1510
+    },
+    {
+      "actual": 90.44,
+      "predicted": 91.09,
+      "locality": "Sarjapur Road",
+      "bhk": 3,
+      "area_sqft": 1280
+    },
+    {
+      "actual": 71.88,
+      "predicted": 76.17,
+      "locality": "Bannerghatta Road",
+      "bhk": 2,
+      "area_sqft": 980
+    },
+    {
+      "actual": 228.02,
+      "predicted": 214.99,
+      "locality": "Koramangala",
+      "bhk": 3,
+      "area_sqft": 1380
+    },
+    {
+      "actual": 110.82,
+      "predicted": 111.22,
+      "locality": "Hebbal",
+      "bhk": 3,
+      "area_sqft": 1180
+    },
+    {
+      "actual": 148.03,
+      "predicted": 162.26,
+      "locality": "Hebbal",
+      "bhk": 3,
+      "area_sqft": 1460
+    },
+    {
+      "actual": 111.4,
+      "predicted": 94.7,
+      "locality": "Bellandur",
+      "bhk": 2,
+      "area_sqft": 1190
+    },
+    {
+      "actual": 246.53,
+      "predicted": 248.16,
+      "locality": "Basavanagudi",
+      "bhk": 5,
+      "area_sqft": 1850
+    },
+    {
+      "actual": 136.54,
+      "predicted": 130.0,
+      "locality": "Marathahalli",
+      "bhk": 3,
+      "area_sqft": 1370
+    },
+    {
+      "actual": 110.19,
+      "predicted": 120.44,
+      "locality": "Marathahalli",
+      "bhk": 3,
+      "area_sqft": 1260
+    },
+    {
+      "actual": 104.7,
+      "predicted": 108.26,
+      "locality": "Marathahalli",
+      "bhk": 3,
+      "area_sqft": 1410
+    },
+    {
+      "actual": 119.72,
+      "predicted": 127.79,
+      "locality": "Whitefield",
+      "bhk": 3,
+      "area_sqft": 1550
+    },
+    {
+      "actual": 124.76,
+      "predicted": 109.25,
+      "locality": "Koramangala",
+      "bhk": 2,
+      "area_sqft": 850
+    },
+    {
+      "actual": 60.54,
+      "predicted": 67.01,
+      "locality": "Kanakapura Road",
+      "bhk": 2,
+      "area_sqft": 980
+    },
+    {
+      "actual": 76.47,
+      "predicted": 85.17,
+      "locality": "Whitefield",
+      "bhk": 2,
+      "area_sqft": 1090
+    },
+    {
+      "actual": 93.16,
+      "predicted": 102.55,
+      "locality": "Koramangala",
+      "bhk": 1,
+      "area_sqft": 560
+    },
+    {
+      "actual": 115.11,
+      "predicted": 111.01,
+      "locality": "RT Nagar",
+      "bhk": 3,
+      "area_sqft": 1180
+    },
+    {
+      "actual": 428.15,
+      "predicted": 359.72,
+      "locality": "Malleshwaram",
+      "bhk": 5,
+      "area_sqft": 2330
+    },
+    {
+      "actual": 115.62,
+      "predicted": 111.99,
+      "locality": "HSR Layout",
+      "bhk": 2,
+      "area_sqft": 1000
+    },
+    {
+      "actual": 173.36,
+      "predicted": 159.05,
+      "locality": "Jayanagar",
+      "bhk": 2,
+      "area_sqft": 1240
+    },
+    {
+      "actual": 185.18,
+      "predicted": 176.89,
+      "locality": "Koramangala",
+      "bhk": 2,
+      "area_sqft": 1090
+    },
+    {
+      "actual": 239.32,
+      "predicted": 254.31,
+      "locality": "Indiranagar",
+      "bhk": 3,
+      "area_sqft": 1350
+    },
+    {
+      "actual": 85.06,
+      "predicted": 82.94,
+      "locality": "Marathahalli",
+      "bhk": 2,
+      "area_sqft": 1070
+    },
+    {
+      "actual": 93.12,
+      "predicted": 98.54,
+      "locality": "Electronic City",
+      "bhk": 3,
+      "area_sqft": 1420
+    },
+    {
+      "actual": 158.39,
+      "predicted": 156.55,
+      "locality": "Basavanagudi",
+      "bhk": 2,
+      "area_sqft": 1210
+    },
+    {
+      "actual": 258.14,
+      "predicted": 228.32,
+      "locality": "Malleshwaram",
+      "bhk": 3,
+      "area_sqft": 1370
+    },
+    {
+      "actual": 174.82,
+      "predicted": 186.33,
+      "locality": "JP Nagar",
+      "bhk": 4,
+      "area_sqft": 1780
+    },
+    {
+      "actual": 168.7,
+      "predicted": 182.48,
+      "locality": "JP Nagar",
+      "bhk": 4,
+      "area_sqft": 1570
+    },
+    {
+      "actual": 161.11,
+      "predicted": 161.61,
+      "locality": "Jayanagar",
+      "bhk": 2,
+      "area_sqft": 1150
+    },
+    {
+      "actual": 99.37,
+      "predicted": 102.1,
+      "locality": "Sarjapur Road",
+      "bhk": 4,
+      "area_sqft": 1700
+    },
+    {
+      "actual": 82.2,
+      "predicted": 82.25,
+      "locality": "JP Nagar",
+      "bhk": 2,
+      "area_sqft": 810
+    },
+    {
+      "actual": 102.52,
+      "predicted": 116.68,
+      "locality": "Vijayanagar",
+      "bhk": 3,
+      "area_sqft": 1210
+    },
+    {
+      "actual": 295.05,
+      "predicted": 304.36,
+      "locality": "Indiranagar",
+      "bhk": 4,
+      "area_sqft": 1730
+    },
+    {
+      "actual": 75.0,
+      "predicted": 64.33,
+      "locality": "Kanakapura Road",
+      "bhk": 2,
+      "area_sqft": 1070
+    },
+    {
+      "actual": 95.78,
+      "predicted": 90.41,
+      "locality": "Hebbal",
+      "bhk": 2,
+      "area_sqft": 950
+    },
+    {
+      "actual": 140.47,
+      "predicted": 138.14,
+      "locality": "HSR Layout",
+      "bhk": 3,
+      "area_sqft": 1170
+    },
+    {
+      "actual": 100.72,
+      "predicted": 94.16,
+      "locality": "Hosur Road",
+      "bhk": 3,
+      "area_sqft": 1440
+    },
+    {
+      "actual": 112.57,
+      "predicted": 107.03,
+      "locality": "Vijayanagar",
+      "bhk": 2,
+      "area_sqft": 1120
+    },
+    {
+      "actual": 78.46,
+      "predicted": 79.45,
+      "locality": "Yelahanka",
+      "bhk": 2,
+      "area_sqft": 1110
+    },
+    {
+      "actual": 140.88,
+      "predicted": 150.98,
+      "locality": "Marathahalli",
+      "bhk": 4,
+      "area_sqft": 1670
+    },
+    {
+      "actual": 75.69,
+      "predicted": 70.35,
+      "locality": "Devanahalli",
+      "bhk": 3,
+      "area_sqft": 1420
+    },
+    {
+      "actual": 134.62,
+      "predicted": 150.65,
+      "locality": "Kanakapura Road",
+      "bhk": 5,
+      "area_sqft": 2000
+    },
+    {
+      "actual": 166.13,
+      "predicted": 147.79,
+      "locality": "Bellandur",
+      "bhk": 3,
+      "area_sqft": 1410
+    },
+    {
+      "actual": 128.77,
+      "predicted": 125.82,
+      "locality": "Hennur",
+      "bhk": 4,
+      "area_sqft": 1680
+    },
+    {
+      "actual": 172.49,
+      "predicted": 171.96,
+      "locality": "HSR Layout",
+      "bhk": 3,
+      "area_sqft": 1240
+    },
+    {
+      "actual": 100.2,
+      "predicted": 91.98,
+      "locality": "Hebbal",
+      "bhk": 2,
+      "area_sqft": 1030
+    },
+    {
+      "actual": 182.99,
+      "predicted": 179.16,
+      "locality": "RT Nagar",
+      "bhk": 4,
+      "area_sqft": 1900
+    },
+    {
+      "actual": 110.13,
+      "predicted": 110.9,
+      "locality": "Bannerghatta Road",
+      "bhk": 2,
+      "area_sqft": 1150
+    },
+    {
+      "actual": 110.23,
+      "predicted": 99.98,
+      "locality": "Hebbal",
+      "bhk": 3,
+      "area_sqft": 1410
+    },
+    {
+      "actual": 102.25,
+      "predicted": 107.66,
+      "locality": "Hennur",
+      "bhk": 3,
+      "area_sqft": 1480
+    },
+    {
+      "actual": 97.58,
+      "predicted": 87.97,
+      "locality": "Banashankari",
+      "bhk": 2,
+      "area_sqft": 1010
+    },
+    {
+      "actual": 53.7,
+      "predicted": 51.77,
+      "locality": "Kengeri",
+      "bhk": 2,
+      "area_sqft": 850
+    },
+    {
+      "actual": 219.23,
+      "predicted": 198.58,
+      "locality": "Malleshwaram",
+      "bhk": 3,
+      "area_sqft": 1200
+    },
+    {
+      "actual": 166.04,
+      "predicted": 148.09,
+      "locality": "Hebbal",
+      "bhk": 3,
+      "area_sqft": 1390
+    },
+    {
+      "actual": 153.75,
+      "predicted": 152.47,
+      "locality": "Marathahalli",
+      "bhk": 4,
+      "area_sqft": 1830
+    },
+    {
+      "actual": 127.32,
+      "predicted": 106.47,
+      "locality": "JP Nagar",
+      "bhk": 2,
+      "area_sqft": 1160
+    },
+    {
+      "actual": 214.61,
+      "predicted": 232.42,
+      "locality": "Indiranagar",
+      "bhk": 3,
+      "area_sqft": 1290
+    },
+    {
+      "actual": 72.18,
+      "predicted": 79.9,
+      "locality": "Devanahalli",
+      "bhk": 3,
+      "area_sqft": 1330
+    },
+    {
+      "actual": 132.34,
+      "predicted": 143.51,
+      "locality": "Basavanagudi",
+      "bhk": 2,
+      "area_sqft": 960
+    },
+    {
+      "actual": 155.14,
+      "predicted": 193.39,
+      "locality": "Malleshwaram",
+      "bhk": 3,
+      "area_sqft": 1360
+    },
+    {
+      "actual": 123.13,
+      "predicted": 111.15,
+      "locality": "Hosur Road",
+      "bhk": 4,
+      "area_sqft": 1830
+    },
+    {
+      "actual": 81.93,
+      "predicted": 80.12,
+      "locality": "Hosur Road",
+      "bhk": 3,
+      "area_sqft": 1290
+    },
+    {
+      "actual": 105.29,
+      "predicted": 109.35,
+      "locality": "Marathahalli",
+      "bhk": 2,
+      "area_sqft": 1150
+    },
+    {
+      "actual": 57.55,
+      "predicted": 64.75,
+      "locality": "Devanahalli",
+      "bhk": 2,
+      "area_sqft": 970
+    },
+    {
+      "actual": 100.26,
+      "predicted": 93.05,
+      "locality": "Rajajinagar",
+      "bhk": 1,
+      "area_sqft": 790
+    },
+    {
+      "actual": 213.28,
+      "predicted": 198.55,
+      "locality": "Jayanagar",
+      "bhk": 3,
+      "area_sqft": 1370
+    },
+    {
+      "actual": 245.55,
+      "predicted": 279.19,
+      "locality": "Indiranagar",
+      "bhk": 4,
+      "area_sqft": 1680
+    },
+    {
+      "actual": 140.04,
+      "predicted": 138.43,
+      "locality": "Koramangala",
+      "bhk": 2,
+      "area_sqft": 900
+    },
+    {
+      "actual": 146.36,
+      "predicted": 147.75,
+      "locality": "Bannerghatta Road",
+      "bhk": 4,
+      "area_sqft": 1680
+    },
+    {
+      "actual": 147.03,
+      "predicted": 174.09,
+      "locality": "Koramangala",
+      "bhk": 2,
+      "area_sqft": 1010
+    },
+    {
+      "actual": 154.32,
+      "predicted": 160.59,
+      "locality": "JP Nagar",
+      "bhk": 3,
+      "area_sqft": 1290
+    },
+    {
+      "actual": 168.55,
+      "predicted": 152.03,
+      "locality": "Rajajinagar",
+      "bhk": 3,
+      "area_sqft": 1420
+    },
+    {
+      "actual": 67.32,
+      "predicted": 61.63,
+      "locality": "Yelahanka",
+      "bhk": 2,
+      "area_sqft": 940
+    },
+    {
+      "actual": 100.75,
+      "predicted": 116.05,
+      "locality": "Yelahanka",
+      "bhk": 3,
+      "area_sqft": 1530
+    },
+    {
+      "actual": 104.37,
+      "predicted": 106.87,
+      "locality": "Hennur",
+      "bhk": 3,
+      "area_sqft": 1360
+    },
+    {
+      "actual": 171.7,
+      "predicted": 173.09,
+      "locality": "Basavanagudi",
+      "bhk": 3,
+      "area_sqft": 1270
+    },
+    {
+      "actual": 211.85,
+      "predicted": 195.93,
+      "locality": "Koramangala",
+      "bhk": 3,
+      "area_sqft": 1240
+    },
+    {
+      "actual": 69.22,
+      "predicted": 72.62,
+      "locality": "Electronic City",
+      "bhk": 2,
+      "area_sqft": 1240
+    },
+    {
+      "actual": 109.35,
+      "predicted": 106.11,
+      "locality": "Marathahalli",
+      "bhk": 3,
+      "area_sqft": 1150
+    },
+    {
+      "actual": 123.01,
+      "predicted": 127.16,
+      "locality": "Rajajinagar",
+      "bhk": 3,
+      "area_sqft": 1120
+    },
+    {
+      "actual": 96.14,
+      "predicted": 89.63,
+      "locality": "Hebbal",
+      "bhk": 2,
+      "area_sqft": 1010
+    },
+    {
+      "actual": 61.74,
+      "predicted": 63.68,
+      "locality": "Devanahalli",
+      "bhk": 3,
+      "area_sqft": 1200
+    },
+    {
+      "actual": 100.11,
+      "predicted": 98.33,
+      "locality": "Electronic City",
+      "bhk": 3,
+      "area_sqft": 1460
+    },
+    {
+      "actual": 225.23,
+      "predicted": 214.02,
+      "locality": "Jayanagar",
+      "bhk": 3,
+      "area_sqft": 1490
+    },
+    {
+      "actual": 78.95,
+      "predicted": 77.17,
+      "locality": "Yelahanka",
+      "bhk": 3,
+      "area_sqft": 1310
+    },
+    {
+      "actual": 94.73,
+      "predicted": 90.47,
+      "locality": "Bannerghatta Road",
+      "bhk": 2,
+      "area_sqft": 1110
+    },
+    {
+      "actual": 63.27,
+      "predicted": 67.88,
+      "locality": "Kanakapura Road",
+      "bhk": 2,
+      "area_sqft": 1110
+    },
+    {
+      "actual": 123.96,
+      "predicted": 114.36,
+      "locality": "Marathahalli",
+      "bhk": 3,
+      "area_sqft": 1370
+    },
+    {
+      "actual": 130.88,
+      "predicted": 130.48,
+      "locality": "Bellandur",
+      "bhk": 3,
+      "area_sqft": 1260
+    },
+    {
+      "actual": 294.43,
+      "predicted": 267.37,
+      "locality": "Indiranagar",
+      "bhk": 4,
+      "area_sqft": 1640
+    },
+    {
+      "actual": 195.3,
+      "predicted": 187.98,
+      "locality": "Hebbal",
+      "bhk": 4,
+      "area_sqft": 1670
+    },
+    {
+      "actual": 201.06,
+      "predicted": 215.06,
+      "locality": "Koramangala",
+      "bhk": 3,
+      "area_sqft": 1470
+    },
+    {
+      "actual": 265.22,
+      "predicted": 262.56,
+      "locality": "Indiranagar",
+      "bhk": 4,
+      "area_sqft": 1810
+    },
+    {
+      "actual": 68.53,
+      "predicted": 75.0,
+      "locality": "Devanahalli",
+      "bhk": 3,
+      "area_sqft": 1320
+    },
+    {
+      "actual": 157.68,
+      "predicted": 159.12,
+      "locality": "Koramangala",
+      "bhk": 2,
+      "area_sqft": 950
+    },
+    {
+      "actual": 94.98,
+      "predicted": 96.61,
+      "locality": "Jayanagar",
+      "bhk": 1,
+      "area_sqft": 610
+    },
+    {
+      "actual": 80.53,
+      "predicted": 79.14,
+      "locality": "Vijayanagar",
+      "bhk": 1,
+      "area_sqft": 910
+    },
+    {
+      "actual": 216.76,
+      "predicted": 227.42,
+      "locality": "Indiranagar",
+      "bhk": 3,
+      "area_sqft": 1410
+    },
+    {
+      "actual": 84.23,
+      "predicted": 86.48,
+      "locality": "Electronic City",
+      "bhk": 3,
+      "area_sqft": 1450
+    },
+    {
+      "actual": 84.56,
+      "predicted": 78.1,
+      "locality": "Electronic City",
+      "bhk": 2,
+      "area_sqft": 1170
+    },
+    {
+      "actual": 53.54,
+      "predicted": 57.07,
+      "locality": "Electronic City",
+      "bhk": 2,
+      "area_sqft": 1020
+    },
+    {
+      "actual": 106.67,
+      "predicted": 111.62,
+      "locality": "Whitefield",
+      "bhk": 3,
+      "area_sqft": 1310
+    },
+    {
+      "actual": 127.57,
+      "predicted": 125.96,
+      "locality": "Bellandur",
+      "bhk": 3,
+      "area_sqft": 1400
+    },
+    {
+      "actual": 113.82,
+      "predicted": 108.63,
+      "locality": "Hebbal",
+      "bhk": 2,
+      "area_sqft": 1080
+    },
+    {
+      "actual": 93.57,
+      "predicted": 102.04,
+      "locality": "Whitefield",
+      "bhk": 2,
+      "area_sqft": 1070
+    },
+    {
+      "actual": 137.33,
+      "predicted": 151.26,
+      "locality": "JP Nagar",
+      "bhk": 3,
+      "area_sqft": 1420
+    },
+    {
+      "actual": 253.74,
+      "predicted": 250.17,
+      "locality": "Indiranagar",
+      "bhk": 3,
+      "area_sqft": 1370
+    },
+    {
+      "actual": 208.94,
+      "predicted": 189.98,
+      "locality": "Bellandur",
+      "bhk": 4,
+      "area_sqft": 1760
+    },
+    {
+      "actual": 94.65,
+      "predicted": 96.77,
+      "locality": "Sarjapur Road",
+      "bhk": 3,
+      "area_sqft": 1390
+    },
+    {
+      "actual": 170.1,
+      "predicted": 172.39,
+      "locality": "Banashankari",
+      "bhk": 4,
+      "area_sqft": 1820
+    },
+    {
+      "actual": 43.41,
+      "predicted": 45.03,
+      "locality": "Devanahalli",
+      "bhk": 2,
+      "area_sqft": 1060
+    },
+    {
+      "actual": 214.15,
+      "predicted": 207.53,
+      "locality": "Koramangala",
+      "bhk": 3,
+      "area_sqft": 1380
+    },
+    {
+      "actual": 122.43,
+      "predicted": 112.88,
+      "locality": "Rajajinagar",
+      "bhk": 2,
+      "area_sqft": 1070
+    },
+    {
+      "actual": 51.51,
+      "predicted": 48.66,
+      "locality": "KR Puram",
+      "bhk": 2,
+      "area_sqft": 800
+    },
+    {
+      "actual": 105.73,
+      "predicted": 114.12,
+      "locality": "Hebbal",
+      "bhk": 3,
+      "area_sqft": 1260
+    },
+    {
+      "actual": 70.13,
+      "predicted": 73.94,
+      "locality": "Yelahanka",
+      "bhk": 3,
+      "area_sqft": 1290
+    },
+    {
+      "actual": 105.0,
+      "predicted": 104.37,
+      "locality": "Electronic City",
+      "bhk": 4,
+      "area_sqft": 1750
+    },
+    {
+      "actual": 181.58,
+      "predicted": 176.35,
+      "locality": "JP Nagar",
+      "bhk": 4,
+      "area_sqft": 1720
+    },
+    {
+      "actual": 156.18,
+      "predicted": 157.77,
+      "locality": "Vijayanagar",
+      "bhk": 4,
+      "area_sqft": 1780
+    },
+    {
+      "actual": 101.04,
+      "predicted": 105.39,
+      "locality": "Yelahanka",
+      "bhk": 4,
+      "area_sqft": 1690
+    },
+    {
+      "actual": 239.48,
+      "predicted": 240.35,
+      "locality": "Indiranagar",
+      "bhk": 3,
+      "area_sqft": 1420
+    },
+    {
+      "actual": 127.65,
+      "predicted": 125.57,
+      "locality": "Bellandur",
+      "bhk": 2,
+      "area_sqft": 1140
+    },
+    {
+      "actual": 54.41,
+      "predicted": 52.32,
+      "locality": "Vijayanagar",
+      "bhk": 1,
+      "area_sqft": 490
+    },
+    {
+      "actual": 246.69,
+      "predicted": 239.98,
+      "locality": "Indiranagar",
+      "bhk": 4,
+      "area_sqft": 1610
+    },
+    {
+      "actual": 129.1,
+      "predicted": 139.37,
+      "locality": "Hebbal",
+      "bhk": 3,
+      "area_sqft": 1430
+    },
+    {
+      "actual": 47.14,
+      "predicted": 48.79,
+      "locality": "Yelahanka",
+      "bhk": 1,
+      "area_sqft": 710
+    },
+    {
+      "actual": 91.32,
+      "predicted": 91.85,
+      "locality": "Hennur",
+      "bhk": 3,
+      "area_sqft": 1220
+    },
+    {
+      "actual": 139.67,
+      "predicted": 136.5,
+      "locality": "HSR Layout",
+      "bhk": 2,
+      "area_sqft": 1060
+    },
+    {
+      "actual": 71.02,
+      "predicted": 72.22,
+      "locality": "Hennur",
+      "bhk": 2,
+      "area_sqft": 1080
+    },
+    {
+      "actual": 51.05,
+      "predicted": 56.53,
+      "locality": "Kanakapura Road",
+      "bhk": 2,
+      "area_sqft": 1010
+    },
+    {
+      "actual": 127.07,
+      "predicted": 116.84,
+      "locality": "Marathahalli",
+      "bhk": 3,
+      "area_sqft": 1400
+    },
+    {
+      "actual": 145.62,
+      "predicted": 145.3,
+      "locality": "Whitefield",
+      "bhk": 4,
+      "area_sqft": 1820
+    },
+    {
+      "actual": 58.83,
+      "predicted": 58.59,
+      "locality": "Bannerghatta Road",
+      "bhk": 1,
+      "area_sqft": 670
+    },
+    {
+      "actual": 173.45,
+      "predicted": 174.99,
+      "locality": "Indiranagar",
+      "bhk": 2,
+      "area_sqft": 1060
+    },
+    {
+      "actual": 196.92,
+      "predicted": 196.23,
+      "locality": "Malleshwaram",
+      "bhk": 3,
+      "area_sqft": 1230
+    },
+    {
+      "actual": 120.53,
+      "predicted": 128.5,
+      "locality": "Sarjapur Road",
+      "bhk": 3,
+      "area_sqft": 1470
+    },
+    {
+      "actual": 115.04,
+      "predicted": 103.33,
+      "locality": "Hebbal",
+      "bhk": 2,
+      "area_sqft": 1010
+    },
+    {
+      "actual": 116.17,
+      "predicted": 110.43,
+      "locality": "RT Nagar",
+      "bhk": 2,
+      "area_sqft": 1000
+    },
+    {
+      "actual": 48.84,
+      "predicted": 47.61,
+      "locality": "KR Puram",
+      "bhk": 1,
+      "area_sqft": 640
+    },
+    {
+      "actual": 230.77,
+      "predicted": 237.53,
+      "locality": "Malleshwaram",
+      "bhk": 4,
+      "area_sqft": 1580
+    },
+    {
+      "actual": 193.04,
+      "predicted": 187.15,
+      "locality": "JP Nagar",
+      "bhk": 4,
+      "area_sqft": 1720
+    },
+    {
+      "actual": 85.92,
+      "predicted": 77.12,
+      "locality": "Yelahanka",
+      "bhk": 2,
+      "area_sqft": 1120
+    },
+    {
+      "actual": 99.86,
+      "predicted": 102.53,
+      "locality": "Bannerghatta Road",
+      "bhk": 2,
+      "area_sqft": 1240
+    },
+    {
+      "actual": 128.3,
+      "predicted": 124.21,
+      "locality": "Whitefield",
+      "bhk": 3,
+      "area_sqft": 1320
+    },
+    {
+      "actual": 69.47,
+      "predicted": 75.11,
+      "locality": "Bannerghatta Road",
+      "bhk": 2,
+      "area_sqft": 1010
+    },
+    {
+      "actual": 80.25,
+      "predicted": 83.61,
+      "locality": "Rajajinagar",
+      "bhk": 2,
+      "area_sqft": 900
+    },
+    {
+      "actual": 156.36,
+      "predicted": 147.48,
+      "locality": "Whitefield",
+      "bhk": 4,
+      "area_sqft": 1730
+    },
+    {
+      "actual": 93.76,
+      "predicted": 93.64,
+      "locality": "Hebbal",
+      "bhk": 2,
+      "area_sqft": 1010
+    },
+    {
+      "actual": 151.95,
+      "predicted": 164.2,
+      "locality": "Hebbal",
+      "bhk": 4,
+      "area_sqft": 1750
+    },
+    {
+      "actual": 147.72,
+      "predicted": 149.05,
+      "locality": "Jayanagar",
+      "bhk": 1,
+      "area_sqft": 960
+    },
+    {
+      "actual": 184.27,
+      "predicted": 176.71,
+      "locality": "Indiranagar",
+      "bhk": 2,
+      "area_sqft": 1170
+    },
+    {
+      "actual": 57.68,
+      "predicted": 52.15,
+      "locality": "Kengeri",
+      "bhk": 2,
+      "area_sqft": 1080
+    },
+    {
+      "actual": 87.5,
+      "predicted": 87.1,
+      "locality": "Hosur Road",
+      "bhk": 3,
+      "area_sqft": 1360
+    },
+    {
+      "actual": 71.98,
+      "predicted": 76.41,
+      "locality": "Electronic City",
+      "bhk": 3,
+      "area_sqft": 1240
+    },
+    {
+      "actual": 97.28,
+      "predicted": 101.34,
+      "locality": "Kanakapura Road",
+      "bhk": 3,
+      "area_sqft": 1480
+    },
+    {
+      "actual": 70.71,
+      "predicted": 71.52,
+      "locality": "KR Puram",
+      "bhk": 2,
+      "area_sqft": 1050
+    },
+    {
+      "actual": 217.83,
+      "predicted": 206.68,
+      "locality": "Hebbal",
+      "bhk": 4,
+      "area_sqft": 1790
+    },
+    {
+      "actual": 90.41,
+      "predicted": 107.24,
+      "locality": "Marathahalli",
+      "bhk": 2,
+      "area_sqft": 1120
+    },
+    {
+      "actual": 103.03,
+      "predicted": 94.69,
+      "locality": "Banashankari",
+      "bhk": 2,
+      "area_sqft": 1090
+    },
+    {
+      "actual": 72.58,
+      "predicted": 79.24,
+      "locality": "Kanakapura Road",
+      "bhk": 2,
+      "area_sqft": 1170
+    },
+    {
+      "actual": 104.06,
+      "predicted": 102.38,
+      "locality": "Bannerghatta Road",
+      "bhk": 3,
+      "area_sqft": 1340
+    },
+    {
+      "actual": 246.22,
+      "predicted": 227.19,
+      "locality": "HSR Layout",
+      "bhk": 4,
+      "area_sqft": 1780
+    },
+    {
+      "actual": 181.7,
+      "predicted": 174.93,
+      "locality": "Jayanagar",
+      "bhk": 3,
+      "area_sqft": 1350
+    },
+    {
+      "actual": 176.32,
+      "predicted": 185.38,
+      "locality": "Jayanagar",
+      "bhk": 3,
+      "area_sqft": 1390
+    },
+    {
+      "actual": 56.19,
+      "predicted": 65.23,
+      "locality": "Electronic City",
+      "bhk": 2,
+      "area_sqft": 1050
+    },
+    {
+      "actual": 145.79,
+      "predicted": 149.87,
+      "locality": "Basavanagudi",
+      "bhk": 2,
+      "area_sqft": 1060
+    },
+    {
+      "actual": 55.0,
+      "predicted": 51.44,
+      "locality": "Electronic City",
+      "bhk": 1,
+      "area_sqft": 890
+    },
+    {
+      "actual": 86.34,
+      "predicted": 100.74,
+      "locality": "Hosur Road",
+      "bhk": 4,
+      "area_sqft": 1590
+    },
+    {
+      "actual": 238.53,
+      "predicted": 243.92,
+      "locality": "Koramangala",
+      "bhk": 4,
+      "area_sqft": 1720
+    },
+    {
+      "actual": 332.66,
+      "predicted": 331.08,
+      "locality": "Malleshwaram",
+      "bhk": 5,
+      "area_sqft": 1910
+    },
+    {
+      "actual": 182.18,
+      "predicted": 181.86,
+      "locality": "HSR Layout",
+      "bhk": 3,
+      "area_sqft": 1490
+    },
+    {
+      "actual": 184.43,
+      "predicted": 200.83,
+      "locality": "Indiranagar",
+      "bhk": 3,
+      "area_sqft": 1260
+    },
+    {
+      "actual": 96.3,
+      "predicted": 82.28,
+      "locality": "HSR Layout",
+      "bhk": 1,
+      "area_sqft": 740
+    },
+    {
+      "actual": 198.99,
+      "predicted": 233.27,
+      "locality": "HSR Layout",
+      "bhk": 5,
+      "area_sqft": 1880
+    },
+    {
+      "actual": 252.25,
+      "predicted": 239.05,
+      "locality": "Malleshwaram",
+      "bhk": 3,
+      "area_sqft": 1440
+    },
+    {
+      "actual": 142.48,
+      "predicted": 115.94,
+      "locality": "Sarjapur Road",
+      "bhk": 4,
+      "area_sqft": 1720
+    },
+    {
+      "actual": 251.22,
+      "predicted": 233.23,
+      "locality": "Koramangala",
+      "bhk": 3,
+      "area_sqft": 1410
+    },
+    {
+      "actual": 67.56,
+      "predicted": 66.31,
+      "locality": "Yelahanka",
+      "bhk": 2,
+      "area_sqft": 1040
+    },
+    {
+      "actual": 51.31,
+      "predicted": 58.16,
+      "locality": "Electronic City",
+      "bhk": 2,
+      "area_sqft": 860
+    },
+    {
+      "actual": 78.06,
+      "predicted": 74.58,
+      "locality": "Kanakapura Road",
+      "bhk": 2,
+      "area_sqft": 1060
+    },
+    {
+      "actual": 142.14,
+      "predicted": 141.09,
+      "locality": "Hebbal",
+      "bhk": 4,
+      "area_sqft": 1670
+    },
+    {
+      "actual": 330.01,
+      "predicted": 303.55,
+      "locality": "Basavanagudi",
+      "bhk": 5,
+      "area_sqft": 1920
+    },
+    {
+      "actual": 271.09,
+      "predicted": 210.08,
+      "locality": "Jayanagar",
+      "bhk": 3,
+      "area_sqft": 1440
+    },
+    {
+      "actual": 44.49,
+      "predicted": 40.53,
+      "locality": "Whitefield",
+      "bhk": 1,
+      "area_sqft": 500
+    },
+    {
+      "actual": 117.06,
+      "predicted": 118.11,
+      "locality": "Hebbal",
+      "bhk": 3,
+      "area_sqft": 1280
+    },
+    {
+      "actual": 37.32,
+      "predicted": 36.38,
+      "locality": "Electronic City",
+      "bhk": 1,
+      "area_sqft": 570
+    },
+    {
+      "actual": 60.18,
+      "predicted": 74.74,
+      "locality": "Yelahanka",
+      "bhk": 2,
+      "area_sqft": 1040
+    },
+    {
+      "actual": 73.17,
+      "predicted": 70.33,
+      "locality": "Devanahalli",
+      "bhk": 2,
+      "area_sqft": 1260
+    },
+    {
+      "actual": 118.77,
+      "predicted": 126.64,
+      "locality": "Banashankari",
+      "bhk": 3,
+      "area_sqft": 1430
+    },
+    {
+      "actual": 126.61,
+      "predicted": 131.9,
+      "locality": "Whitefield",
+      "bhk": 3,
+      "area_sqft": 1410
+    },
+    {
+      "actual": 201.61,
+      "predicted": 191.19,
+      "locality": "Indiranagar",
+      "bhk": 3,
+      "area_sqft": 1330
+    },
+    {
+      "actual": 156.54,
+      "predicted": 146.23,
+      "locality": "Indiranagar",
+      "bhk": 2,
+      "area_sqft": 910
+    },
+    {
+      "actual": 90.39,
+      "predicted": 95.1,
+      "locality": "Hennur",
+      "bhk": 3,
+      "area_sqft": 1290
+    },
+    {
+      "actual": 57.8,
+      "predicted": 52.89,
+      "locality": "Kengeri",
+      "bhk": 2,
+      "area_sqft": 1010
+    },
+    {
+      "actual": 127.48,
+      "predicted": 124.68,
+      "locality": "HSR Layout",
+      "bhk": 2,
+      "area_sqft": 930
+    },
+    {
+      "actual": 92.84,
+      "predicted": 85.26,
+      "locality": "Sarjapur Road",
+      "bhk": 2,
+      "area_sqft": 1190
+    },
+    {
+      "actual": 166.05,
+      "predicted": 159.39,
+      "locality": "Malleshwaram",
+      "bhk": 2,
+      "area_sqft": 1150
+    },
+    {
+      "actual": 59.86,
+      "predicted": 64.15,
+      "locality": "HSR Layout",
+      "bhk": 1,
+      "area_sqft": 450
+    },
+    {
+      "actual": 115.57,
+      "predicted": 114.38,
+      "locality": "Sarjapur Road",
+      "bhk": 3,
+      "area_sqft": 1590
+    },
+    {
+      "actual": 93.33,
+      "predicted": 94.49,
+      "locality": "Whitefield",
+      "bhk": 2,
+      "area_sqft": 1080
+    },
+    {
+      "actual": 119.32,
+      "predicted": 114.34,
+      "locality": "HSR Layout",
+      "bhk": 2,
+      "area_sqft": 880
+    },
+    {
+      "actual": 90.36,
+      "predicted": 81.87,
+      "locality": "Whitefield",
+      "bhk": 2,
+      "area_sqft": 1020
+    },
+    {
+      "actual": 208.59,
+      "predicted": 217.63,
+      "locality": "Indiranagar",
+      "bhk": 3,
+      "area_sqft": 1280
+    },
+    {
+      "actual": 156.89,
+      "predicted": 160.13,
+      "locality": "RT Nagar",
+      "bhk": 3,
+      "area_sqft": 1620
+    },
+    {
+      "actual": 164.49,
+      "predicted": 175.06,
+      "locality": "Jayanagar",
+      "bhk": 2,
+      "area_sqft": 1230
+    },
+    {
+      "actual": 46.01,
+      "predicted": 47.06,
+      "locality": "Electronic City",
+      "bhk": 1,
+      "area_sqft": 710
+    },
+    {
+      "actual": 93.42,
+      "predicted": 94.08,
+      "locality": "Rajajinagar",
+      "bhk": 1,
+      "area_sqft": 780
+    },
+    {
+      "actual": 182.73,
+      "predicted": 183.76,
+      "locality": "Basavanagudi",
+      "bhk": 3,
+      "area_sqft": 1220
+    },
+    {
+      "actual": 106.19,
+      "predicted": 117.54,
+      "locality": "Sarjapur Road",
+      "bhk": 4,
+      "area_sqft": 1760
+    },
+    {
+      "actual": 50.04,
+      "predicted": 47.32,
+      "locality": "Kengeri",
+      "bhk": 2,
+      "area_sqft": 940
+    },
+    {
+      "actual": 119.29,
+      "predicted": 108.07,
+      "locality": "Sarjapur Road",
+      "bhk": 3,
+      "area_sqft": 1440
+    },
+    {
+      "actual": 155.13,
+      "predicted": 142.04,
+      "locality": "Hebbal",
+      "bhk": 3,
+      "area_sqft": 1290
+    },
+    {
+      "actual": 91.36,
+      "predicted": 90.63,
+      "locality": "KR Puram",
+      "bhk": 3,
+      "area_sqft": 1390
+    },
+    {
+      "actual": 170.74,
+      "predicted": 162.17,
+      "locality": "Vijayanagar",
+      "bhk": 3,
+      "area_sqft": 1400
+    },
+    {
+      "actual": 139.11,
+      "predicted": 134.3,
+      "locality": "Sarjapur Road",
+      "bhk": 4,
+      "area_sqft": 1620
+    },
+    {
+      "actual": 78.48,
+      "predicted": 76.97,
+      "locality": "Whitefield",
+      "bhk": 1,
+      "area_sqft": 850
+    },
+    {
+      "actual": 134.24,
+      "predicted": 154.25,
+      "locality": "JP Nagar",
+      "bhk": 3,
+      "area_sqft": 1580
+    },
+    {
+      "actual": 99.56,
+      "predicted": 117.29,
+      "locality": "Koramangala",
+      "bhk": 1,
+      "area_sqft": 610
+    },
+    {
+      "actual": 86.24,
+      "predicted": 98.64,
+      "locality": "Banashankari",
+      "bhk": 2,
+      "area_sqft": 1200
+    },
+    {
+      "actual": 62.15,
+      "predicted": 60.91,
+      "locality": "Hosur Road",
+      "bhk": 2,
+      "area_sqft": 900
+    },
+    {
+      "actual": 56.42,
+      "predicted": 60.88,
+      "locality": "Marathahalli",
+      "bhk": 1,
+      "area_sqft": 630
+    },
+    {
+      "actual": 192.43,
+      "predicted": 182.43,
+      "locality": "Hebbal",
+      "bhk": 4,
+      "area_sqft": 1730
+    },
+    {
+      "actual": 97.78,
+      "predicted": 98.58,
+      "locality": "Electronic City",
+      "bhk": 4,
+      "area_sqft": 1840
+    },
+    {
+      "actual": 66.49,
+      "predicted": 67.07,
+      "locality": "Whitefield",
+      "bhk": 1,
+      "area_sqft": 740
+    },
+    {
+      "actual": 107.07,
+      "predicted": 95.34,
+      "locality": "Hennur",
+      "bhk": 2,
+      "area_sqft": 1250
+    },
+    {
+      "actual": 59.68,
+      "predicted": 59.84,
+      "locality": "JP Nagar",
+      "bhk": 1,
+      "area_sqft": 570
+    },
+    {
+      "actual": 91.58,
+      "predicted": 96.82,
+      "locality": "Hosur Road",
+      "bhk": 3,
+      "area_sqft": 1350
+    },
+    {
+      "actual": 252.94,
+      "predicted": 240.59,
+      "locality": "Indiranagar",
+      "bhk": 3,
+      "area_sqft": 1400
+    },
+    {
+      "actual": 144.91,
+      "predicted": 141.38,
+      "locality": "Bellandur",
+      "bhk": 3,
+      "area_sqft": 1620
+    },
+    {
+      "actual": 75.98,
+      "predicted": 77.16,
+      "locality": "Kanakapura Road",
+      "bhk": 3,
+      "area_sqft": 1380
+    },
+    {
+      "actual": 67.33,
+      "predicted": 67.74,
+      "locality": "Whitefield",
+      "bhk": 2,
+      "area_sqft": 860
+    },
+    {
+      "actual": 75.19,
+      "predicted": 77.67,
+      "locality": "Yelahanka",
+      "bhk": 3,
+      "area_sqft": 1380
+    },
+    {
+      "actual": 119.94,
+      "predicted": 111.93,
+      "locality": "JP Nagar",
+      "bhk": 2,
+      "area_sqft": 1050
+    },
+    {
+      "actual": 245.92,
+      "predicted": 261.08,
+      "locality": "Indiranagar",
+      "bhk": 4,
+      "area_sqft": 1620
+    },
+    {
+      "actual": 96.17,
+      "predicted": 89.73,
+      "locality": "Marathahalli",
+      "bhk": 2,
+      "area_sqft": 980
+    },
+    {
+      "actual": 60.49,
+      "predicted": 59.83,
+      "locality": "Sarjapur Road",
+      "bhk": 2,
+      "area_sqft": 790
+    },
+    {
+      "actual": 105.19,
+      "predicted": 99.28,
+      "locality": "Bannerghatta Road",
+      "bhk": 2,
+      "area_sqft": 1130
+    },
+    {
+      "actual": 132.25,
+      "predicted": 136.99,
+      "locality": "Marathahalli",
+      "bhk": 3,
+      "area_sqft": 1520
+    },
+    {
+      "actual": 194.53,
+      "predicted": 219.89,
+      "locality": "Malleshwaram",
+      "bhk": 4,
+      "area_sqft": 1550
+    },
+    {
+      "actual": 118.59,
+      "predicted": 112.91,
+      "locality": "JP Nagar",
+      "bhk": 2,
+      "area_sqft": 1090
+    },
+    {
+      "actual": 75.68,
+      "predicted": 71.16,
+      "locality": "Electronic City",
+      "bhk": 3,
+      "area_sqft": 1340
+    },
+    {
+      "actual": 152.99,
+      "predicted": 145.05,
+      "locality": "Electronic City",
+      "bhk": 5,
+      "area_sqft": 2090
+    },
+    {
+      "actual": 79.52,
+      "predicted": 87.25,
+      "locality": "Kanakapura Road",
+      "bhk": 3,
+      "area_sqft": 1460
+    },
+    {
+      "actual": 44.47,
+      "predicted": 46.5,
+      "locality": "Whitefield",
+      "bhk": 1,
+      "area_sqft": 520
+    },
+    {
+      "actual": 125.5,
+      "predicted": 104.55,
+      "locality": "Jayanagar",
+      "bhk": 1,
+      "area_sqft": 750
+    },
+    {
+      "actual": 133.5,
+      "predicted": 113.55,
+      "locality": "Bellandur",
+      "bhk": 2,
+      "area_sqft": 1130
+    },
+    {
+      "actual": 32.2,
+      "predicted": 32.07,
+      "locality": "Kengeri",
+      "bhk": 1,
+      "area_sqft": 570
+    },
+    {
+      "actual": 112.73,
+      "predicted": 111.15,
+      "locality": "Marathahalli",
+      "bhk": 3,
+      "area_sqft": 1290
+    },
+    {
+      "actual": 75.73,
+      "predicted": 79.46,
+      "locality": "Bannerghatta Road",
+      "bhk": 2,
+      "area_sqft": 1030
+    },
+    {
+      "actual": 118.28,
+      "predicted": 134.54,
+      "locality": "Hebbal",
+      "bhk": 3,
+      "area_sqft": 1440
+    },
+    {
+      "actual": 71.74,
+      "predicted": 72.41,
+      "locality": "Yelahanka",
+      "bhk": 3,
+      "area_sqft": 1110
+    },
+    {
+      "actual": 74.45,
+      "predicted": 93.16,
+      "locality": "Banashankari",
+      "bhk": 3,
+      "area_sqft": 1360
+    },
+    {
+      "actual": 288.29,
+      "predicted": 259.38,
+      "locality": "Indiranagar",
+      "bhk": 3,
+      "area_sqft": 1530
+    },
+    {
+      "actual": 194.01,
+      "predicted": 166.58,
+      "locality": "Koramangala",
+      "bhk": 2,
+      "area_sqft": 1170
+    },
+    {
+      "actual": 60.24,
+      "predicted": 64.37,
+      "locality": "Electronic City",
+      "bhk": 2,
+      "area_sqft": 1020
+    },
+    {
+      "actual": 151.65,
+      "predicted": 155.2,
+      "locality": "Bellandur",
+      "bhk": 3,
+      "area_sqft": 1400
+    },
+    {
+      "actual": 53.96,
+      "predicted": 59.86,
+      "locality": "Devanahalli",
+      "bhk": 2,
+      "area_sqft": 1040
+    },
+    {
+      "actual": 121.97,
+      "predicted": 117.54,
+      "locality": "Hennur",
+      "bhk": 3,
+      "area_sqft": 1440
+    },
+    {
+      "actual": 49.53,
+      "predicted": 46.08,
+      "locality": "Devanahalli",
+      "bhk": 2,
+      "area_sqft": 960
+    },
+    {
+      "actual": 106.46,
+      "predicted": 102.84,
+      "locality": "Hennur",
+      "bhk": 3,
+      "area_sqft": 1460
+    },
+    {
+      "actual": 69.12,
+      "predicted": 81.65,
+      "locality": "Hennur",
+      "bhk": 2,
+      "area_sqft": 1020
+    },
+    {
+      "actual": 210.4,
+      "predicted": 207.73,
+      "locality": "JP Nagar",
+      "bhk": 4,
+      "area_sqft": 1760
+    },
+    {
+      "actual": 213.51,
+      "predicted": 247.05,
+      "locality": "Koramangala",
+      "bhk": 3,
+      "area_sqft": 1510
+    },
+    {
+      "actual": 165.74,
+      "predicted": 161.38,
+      "locality": "Bellandur",
+      "bhk": 4,
+      "area_sqft": 1650
+    },
+    {
+      "actual": 162.83,
+      "predicted": 137.82,
+      "locality": "HSR Layout",
+      "bhk": 2,
+      "area_sqft": 1090
+    },
+    {
+      "actual": 129.37,
+      "predicted": 124.42,
+      "locality": "JP Nagar",
+      "bhk": 2,
+      "area_sqft": 1100
+    },
+    {
+      "actual": 76.15,
+      "predicted": 79.68,
+      "locality": "Koramangala",
+      "bhk": 1,
+      "area_sqft": 520
+    },
+    {
+      "actual": 158.09,
+      "predicted": 156.17,
+      "locality": "JP Nagar",
+      "bhk": 2,
+      "area_sqft": 1360
+    },
+    {
+      "actual": 183.72,
+      "predicted": 210.34,
+      "locality": "HSR Layout",
+      "bhk": 4,
+      "area_sqft": 1570
+    },
+    {
+      "actual": 209.14,
+      "predicted": 189.98,
+      "locality": "Jayanagar",
+      "bhk": 3,
+      "area_sqft": 1230
+    },
+    {
+      "actual": 53.73,
+      "predicted": 56.33,
+      "locality": "Bannerghatta Road",
+      "bhk": 1,
+      "area_sqft": 670
+    },
+    {
+      "actual": 241.35,
+      "predicted": 256.49,
+      "locality": "Koramangala",
+      "bhk": 4,
+      "area_sqft": 1640
+    },
+    {
+      "actual": 199.27,
+      "predicted": 213.44,
+      "locality": "Koramangala",
+      "bhk": 3,
+      "area_sqft": 1370
+    },
+    {
+      "actual": 35.62,
+      "predicted": 34.69,
+      "locality": "Devanahalli",
+      "bhk": 1,
+      "area_sqft": 630
+    },
+    {
+      "actual": 70.68,
+      "predicted": 70.13,
+      "locality": "JP Nagar",
+      "bhk": 1,
+      "area_sqft": 710
+    },
+    {
+      "actual": 83.59,
+      "predicted": 86.38,
+      "locality": "Bannerghatta Road",
+      "bhk": 2,
+      "area_sqft": 1020
+    },
+    {
+      "actual": 56.92,
+      "predicted": 55.66,
+      "locality": "KR Puram",
+      "bhk": 1,
+      "area_sqft": 790
+    },
+    {
+      "actual": 147.07,
+      "predicted": 130.7,
+      "locality": "KR Puram",
+      "bhk": 5,
+      "area_sqft": 1860
+    },
+    {
+      "actual": 233.65,
+      "predicted": 212.35,
+      "locality": "Rajajinagar",
+      "bhk": 4,
+      "area_sqft": 1780
+    },
+    {
+      "actual": 207.66,
+      "predicted": 196.51,
+      "locality": "HSR Layout",
+      "bhk": 3,
+      "area_sqft": 1410
+    },
+    {
+      "actual": 187.86,
+      "predicted": 153.2,
+      "locality": "RT Nagar",
+      "bhk": 3,
+      "area_sqft": 1590
+    },
+    {
+      "actual": 133.69,
+      "predicted": 128.88,
+      "locality": "KR Puram",
+      "bhk": 4,
+      "area_sqft": 1740
+    },
+    {
+      "actual": 193.96,
+      "predicted": 179.2,
+      "locality": "HSR Layout",
+      "bhk": 3,
+      "area_sqft": 1460
+    },
+    {
+      "actual": 270.25,
+      "predicted": 259.24,
+      "locality": "Basavanagudi",
+      "bhk": 4,
+      "area_sqft": 1810
+    },
+    {
+      "actual": 79.82,
+      "predicted": 89.68,
+      "locality": "Bannerghatta Road",
+      "bhk": 2,
+      "area_sqft": 1040
+    },
+    {
+      "actual": 120.78,
+      "predicted": 127.9,
+      "locality": "Marathahalli",
+      "bhk": 3,
+      "area_sqft": 1450
+    },
+    {
+      "actual": 117.67,
+      "predicted": 136.75,
+      "locality": "Bannerghatta Road",
+      "bhk": 4,
+      "area_sqft": 1950
+    },
+    {
+      "actual": 77.12,
+      "predicted": 75.79,
+      "locality": "JP Nagar",
+      "bhk": 1,
+      "area_sqft": 670
+    },
+    {
+      "actual": 138.98,
+      "predicted": 137.28,
+      "locality": "Vijayanagar",
+      "bhk": 2,
+      "area_sqft": 1380
+    },
+    {
+      "actual": 137.56,
+      "predicted": 121.92,
+      "locality": "Sarjapur Road",
+      "bhk": 4,
+      "area_sqft": 1690
+    },
+    {
+      "actual": 178.23,
+      "predicted": 177.16,
+      "locality": "RT Nagar",
+      "bhk": 4,
+      "area_sqft": 1720
+    },
+    {
+      "actual": 78.92,
+      "predicted": 76.71,
+      "locality": "KR Puram",
+      "bhk": 2,
+      "area_sqft": 970
+    }
+  ]
+}

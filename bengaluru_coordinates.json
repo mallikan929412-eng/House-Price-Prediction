@@ -1,0 +1,31 @@
+{
+  "is_approximate": true,
+  "notice": "Coordinates represent approximate locality centers in Bengaluru for interactive geospatial visualization.",
+  "localities": {
+    "Banashankari": { "lat": 12.9255, "lng": 75.5468, "zone": "South" },
+    "Bannerghatta Road": { "lat": 12.8876, "lng": 77.5968, "zone": "South" },
+    "Basavanagudi": { "lat": 12.9422, "lng": 77.5753, "zone": "South" },
+    "Bellandur": { "lat": 12.9304, "lng": 77.6784, "zone": "East" },
+    "Devanahalli": { "lat": 13.2483, "lng": 77.7126, "zone": "North" },
+    "Electronic City": { "lat": 12.8452, "lng": 77.6602, "zone": "South" },
+    "HSR Layout": { "lat": 12.9121, "lng": 77.6446, "zone": "South" },
+    "Hebbal": { "lat": 13.0358, "lng": 77.5970, "zone": "North" },
+    "Hennur": { "lat": 13.0258, "lng": 77.6402, "zone": "North" },
+    "Hosur Road": { "lat": 12.8912, "lng": 77.6415, "zone": "South" },
+    "Indiranagar": { "lat": 12.9716, "lng": 77.6412, "zone": "East" },
+    "JP Nagar": { "lat": 12.9063, "lng": 77.5857, "zone": "South" },
+    "Jayanagar": { "lat": 12.9308, "lng": 77.5838, "zone": "South" },
+    "KR Puram": { "lat": 13.0075, "lng": 77.6959, "zone": "East" },
+    "Kanakapura Road": { "lat": 12.8833, "lng": 77.5458, "zone": "South" },
+    "Kengeri": { "lat": 12.9081, "lng": 77.4837, "zone": "West" },
+    "Koramangala": { "lat": 12.9352, "lng": 77.6245, "zone": "South" },
+    "Malleshwaram": { "lat": 13.0031, "lng": 77.5643, "zone": "North" },
+    "Marathahalli": { "lat": 12.9591, "lng": 77.6974, "zone": "East" },
+    "RT Nagar": { "lat": 13.0247, "lng": 77.5948, "zone": "North" },
+    "Rajajinagar": { "lat": 12.9982, "lng": 77.5530, "zone": "West" },
+    "Sarjapur Road": { "lat": 12.9116, "lng": 77.6874, "zone": "East" },
+    "Vijayanagar": { "lat": 12.9719, "lng": 77.5306, "zone": "West" },
+    "Whitefield": { "lat": 12.9698, "lng": 77.7500, "zone": "East" },
+    "Yelahanka": { "lat": 13.1007, "lng": 77.5963, "zone": "North" }
+  }
+}

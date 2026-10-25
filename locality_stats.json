@@ -1,0 +1,177 @@
+{
+  "Banashankari": {
+    "listing_count": 427,
+    "avg_price_lakhs": 117.31,
+    "median_price_lakhs": 114.42,
+    "avg_price_per_sqft": 9263.2,
+    "zone": "South"
+  },
+  "Bannerghatta Road": {
+    "listing_count": 610,
+    "avg_price_lakhs": 105.82,
+    "median_price_lakhs": 104.06,
+    "avg_price_per_sqft": 8268.9,
+    "zone": "South"
+  },
+  "Basavanagudi": {
+    "listing_count": 455,
+    "avg_price_lakhs": 179.4,
+    "median_price_lakhs": 175.69,
+    "avg_price_per_sqft": 14035.0,
+    "zone": "South"
+  },
+  "Bellandur": {
+    "listing_count": 696,
+    "avg_price_lakhs": 131.29,
+    "median_price_lakhs": 127.47,
+    "avg_price_per_sqft": 10268.3,
+    "zone": "East"
+  },
+  "Devanahalli": {
+    "listing_count": 414,
+    "avg_price_lakhs": 70.15,
+    "median_price_lakhs": 68.68,
+    "avg_price_per_sqft": 5423.7,
+    "zone": "North"
+  },
+  "Electronic City": {
+    "listing_count": 880,
+    "avg_price_lakhs": 76.66,
+    "median_price_lakhs": 74.94,
+    "avg_price_per_sqft": 6072.7,
+    "zone": "South"
+  },
+  "HSR Layout": {
+    "listing_count": 880,
+    "avg_price_lakhs": 156.85,
+    "median_price_lakhs": 153.57,
+    "avg_price_per_sqft": 12199.6,
+    "zone": "South"
+  },
+  "Hebbal": {
+    "listing_count": 758,
+    "avg_price_lakhs": 123.91,
+    "median_price_lakhs": 121.27,
+    "avg_price_per_sqft": 9733.8,
+    "zone": "North"
+  },
+  "Hennur": {
+    "listing_count": 484,
+    "avg_price_lakhs": 99.2,
+    "median_price_lakhs": 97.56,
+    "avg_price_per_sqft": 7789.3,
+    "zone": "North"
+  },
+  "Hosur Road": {
+    "listing_count": 413,
+    "avg_price_lakhs": 83.75,
+    "median_price_lakhs": 83.16,
+    "avg_price_per_sqft": 6536.1,
+    "zone": "South"
+  },
+  "Indiranagar": {
+    "listing_count": 704,
+    "avg_price_lakhs": 207.72,
+    "median_price_lakhs": 202.25,
+    "avg_price_per_sqft": 16655.3,
+    "zone": "East"
+  },
+  "JP Nagar": {
+    "listing_count": 729,
+    "avg_price_lakhs": 134.95,
+    "median_price_lakhs": 130.6,
+    "avg_price_per_sqft": 10467.2,
+    "zone": "South"
+  },
+  "Jayanagar": {
+    "listing_count": 625,
+    "avg_price_lakhs": 187.74,
+    "median_price_lakhs": 182.65,
+    "avg_price_per_sqft": 14521.0,
+    "zone": "South"
+  },
+  "KR Puram": {
+    "listing_count": 434,
+    "avg_price_lakhs": 83.87,
+    "median_price_lakhs": 82.14,
+    "avg_price_per_sqft": 6693.5,
+    "zone": "East"
+  },
+  "Kanakapura Road": {
+    "listing_count": 557,
+    "avg_price_lakhs": 81.01,
+    "median_price_lakhs": 80.65,
+    "avg_price_per_sqft": 6402.7,
+    "zone": "South"
+  },
+  "Kengeri": {
+    "listing_count": 299,
+    "avg_price_lakhs": 65.15,
+    "median_price_lakhs": 62.34,
+    "avg_price_per_sqft": 5314.2,
+    "zone": "West"
+  },
+  "Koramangala": {
+    "listing_count": 845,
+    "avg_price_lakhs": 200.22,
+    "median_price_lakhs": 194.01,
+    "avg_price_per_sqft": 15847.4,
+    "zone": "South"
+  },
+  "Malleshwaram": {
+    "listing_count": 440,
+    "avg_price_lakhs": 189.41,
+    "median_price_lakhs": 183.62,
+    "avg_price_per_sqft": 15159.5,
+    "zone": "North"
+  },
+  "Marathahalli": {
+    "listing_count": 870,
+    "avg_price_lakhs": 113.22,
+    "median_price_lakhs": 109.66,
+    "avg_price_per_sqft": 8968.6,
+    "zone": "East"
+  },
+  "RT Nagar": {
+    "listing_count": 275,
+    "avg_price_lakhs": 130.53,
+    "median_price_lakhs": 130.36,
+    "avg_price_per_sqft": 10018.2,
+    "zone": "North"
+  },
+  "Rajajinagar": {
+    "listing_count": 436,
+    "avg_price_lakhs": 143.49,
+    "median_price_lakhs": 139.94,
+    "avg_price_per_sqft": 11300.4,
+    "zone": "West"
+  },
+  "Sarjapur Road": {
+    "listing_count": 857,
+    "avg_price_lakhs": 94.35,
+    "median_price_lakhs": 91.84,
+    "avg_price_per_sqft": 7462.7,
+    "zone": "East"
+  },
+  "Vijayanagar": {
+    "listing_count": 293,
+    "avg_price_lakhs": 130.36,
+    "median_price_lakhs": 126.56,
+    "avg_price_per_sqft": 10088.1,
+    "zone": "West"
+  },
+  "Whitefield": {
+    "listing_count": 990,
+    "avg_price_lakhs": 110.92,
+    "median_price_lakhs": 107.83,
+    "avg_price_per_sqft": 8799.3,
+    "zone": "East"
+  },
+  "Yelahanka": {
+    "listing_count": 582,
+    "avg_price_lakhs": 86.54,
+    "median_price_lakhs": 85.96,
+    "avg_price_per_sqft": 6853.0,
+    "zone": "North"
+  }
+}
